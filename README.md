@@ -1,1 +1,2 @@
-# singularity-ijavascript
+# A singularity container running ijavascript
+ 
