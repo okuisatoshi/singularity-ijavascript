@@ -1,9 +1,9 @@
 Bootstrap:docker
-From:python:2.7-alpine
+From:python:3.7-alpine
 
 %post
 
-apk --update --no-cache add bash alpine-sdk zeromq-dev nodejs npm
+apk --update --no-cache add bash alpine-sdk zeromq-dev nodejs npm libffi-dev
 pip install jupyter
 npm install -g ijavascript
 
