@@ -3,7 +3,7 @@ From:python:2.7-alpine
 
 %post
 
-apk --update --no-cache add bash alpine-sdk zeromq-dev nodejs
+apk --update --no-cache add bash alpine-sdk zeromq-dev nodejs npm
 pip install jupyter
 npm install -g ijavascript
 
